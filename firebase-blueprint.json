@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "jobs": {
+      "title": "string",
+      "company": "string",
+      "companyUrl": "string",
+      "year": "number",
+      "branches": "array",
+      "degrees": "array",
+      "industry": "string",
+      "salary": "string",
+      "location": "string",
+      "category": "string",
+      "lastDate": "string",
+      "skills": "array",
+      "description": "string",
+      "applyLink": "string",
+      "hrPhone": "string",
+      "isWalkin": "boolean",
+      "walkinDate": "string",
+      "walkinVenue": "string",
+      "createdAt": "string"
+    },
+    "trainings": {
+      "title": "string",
+      "instituteName": "string",
+      "location": "string",
+      "courses": "array",
+      "fee": "string",
+      "hrPhone": "string",
+      "instructorEmail": "string",
+      "description": "string",
+      "websiteUrl": "string",
+      "applyLink": "string",
+      "createdAt": "string"
+    },
+    "users": {
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string",
+      "degree": "string",
+      "branch": "string",
+      "resumeText": "string",
+      "bgDocStatus": "string",
+      "alertsEnabled": "boolean",
+      "createdAt": "string"
+    },
+    "applications": {
+      "userId": "string",
+      "userName": "string",
+      "userEmail": "string",
+      "jobId": "string",
+      "jobTitle": "string",
+      "company": "string",
+      "status": "string",
+      "appliedAt": "string"
+    }
+  }
+}
